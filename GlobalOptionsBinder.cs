@@ -23,17 +23,17 @@ public class GlobalOptionsBinder : BinderBase<GlobalOptions>
         VhostOption = vhostOption;
     }
 
-    public Option<string> HostOption { get; }
-    public Option<int> PortOption { get; }
-    public Option<bool> SecureOption { get; }
-    public Option<string> QueueOption { get; }
-    public Option<string> UsernameOption { get; }
-    public Option<string> PasswordOption { get; }
-    public Option<bool> ExclusiveOption { get; }
-    public Option<bool> DurableOption { get; }
-    public Option<bool> AutoDeleteOption { get; }
-    public Option<string> ExchangeOption { get; }
-    public Option<string> VhostOption { get; }
+    private Option<string> HostOption { get; }
+    private Option<int> PortOption { get; }
+    private Option<bool> SecureOption { get; }
+    private Option<string> QueueOption { get; }
+    private Option<string> UsernameOption { get; }
+    private Option<string> PasswordOption { get; }
+    private Option<bool> ExclusiveOption { get; }
+    private Option<bool> DurableOption { get; }
+    private Option<bool> AutoDeleteOption { get; }
+    private Option<string> ExchangeOption { get; }
+    private Option<string> VhostOption { get; }
 
     protected override GlobalOptions GetBoundValue(BindingContext bindingContext)
     {

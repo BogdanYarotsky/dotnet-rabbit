@@ -12,5 +12,5 @@ public class GlobalOptions
     public bool Durable { get; init; }
     public bool AutoDelete { get; init; }
     public string? Exchange { get; init; }
-    public string? VirtualHost { get; set; }
+    public string? VirtualHost { get; init; }
 }
