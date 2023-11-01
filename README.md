@@ -1,9 +1,19 @@
 # Description:
-  CLI tool to use RabbitMQ   
+  CLI tool to quickly test RabbitMQ   
 
 # Usage:
   dotnet-rabbit [command] [options]
 
+# Commands:
+  
+  "publish":    publish message to specified queue
+  
+  "subscribe":  Listen to all messages in a queue
+  
+  "peek":       Check the first message in specified queue
+  
+  "pop":        Read and remove the first message in a queue
+  
 # Options:
   --host <host>                   [default: localhost]
   
@@ -28,13 +38,3 @@
   --version                       Show version information
   
   -?, -h, --help                  Show help and usage information
-
-# Commands:
-  
-  "publish":    publish message to specified queue
-  
-  "subscribe":  Listen to all messages in a queue
-  
-  "peek":       Check the first message in specified queue
-  
-  "pop":        Read and remove the first message in a queue
