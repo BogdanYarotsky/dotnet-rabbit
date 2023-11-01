@@ -31,10 +31,10 @@
 
 # Commands:
   
-  publish    publish message to specified queue
+  "publish":    publish message to specified queue
   
-  subscribe  Listen to all messages in a queue
+  "subscribe":  Listen to all messages in a queue
   
-  peek       Check the first message in specified queue
+  "peek":       Check the first message in specified queue
   
-  pop        Read and remove the first message in a queue
+  "pop":        Read and remove the first message in a queue
